@@ -1,0 +1,15 @@
+{
+    "output_parameters": {
+        "efficiencyAbs": 0.19607843137254902, 
+        "muonCLS_err": -1, 
+        "muonCLS": 1.65, 
+        "efficiencyAbs_err": 0.039311685650162
+    }, 
+    "input_parameters": {
+        "threshold": 6, 
+        "noiseTimeWindowBegin": 20, 
+        "noiseTimeWindowEnd": 60, 
+        "muonTimeWindowEnd": 160, 
+        "muonTimeWindowBegin": 80
+    }
+}
