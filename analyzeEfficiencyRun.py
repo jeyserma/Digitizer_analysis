@@ -108,6 +108,7 @@ if __name__ == "__main__":
         
         analyzer.loadConfig(cfg) # cfg_GIFPP cfg_FEB12
         analyzer.setVerbose(1)
+        #analyzer.DQM() # plot all events over entire time range 
         
         analyzer.setNoiseTimeWindow(20, 60) # define start and end time of the noise window
         analyzer.setMuonTimeWindow(80, 160) # define start and end time of the muon window
@@ -123,7 +124,7 @@ if __name__ == "__main__":
         analyzer.analyze(False)
         analyzer.write()
         
-        #analyzer.DQM() # plot all events over entire time range 
+        
 
         
         
